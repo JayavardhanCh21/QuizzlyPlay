@@ -11,17 +11,24 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/image"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="132dp" />
+        android:layout_marginTop="75dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image" />
 
     <TextView
         android:id="@+id/textViewSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quizz'ly Play !!"
+        android:layout_marginBottom="250dp"
+        android:text="@string/quizz_ly_play"
         android:textColor="#0ED4ED"
         android:textSize="50sp"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="435dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

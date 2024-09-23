@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-
     <style name="Theme.QuizzlyPlay" parent="android:Theme.Material.Light.DarkActionBar" >
-
-
     <item name="colorPrimary" tools:ignore="DuplicateDefinition">@color/purple_500</item>
     <item name="colorPrimaryVariant" tools:ignore="DuplicateDefinition">@color/purple_700</item>
     <item name="colorOnPrimary" tools:ignore="DuplicateDefinition">@color/white</item>
-
     <item name="colorSecondary" tools:ignore="DuplicateDefinition">@color/teal_200</item>
     <item name="colorSecondaryVariant" tools:ignore="DuplicateDefinition">@color/teal_700</item>
     <item name="colorOnSecondary" tools:ignore="DuplicateDefinition">@color/black</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-
-
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
     </style>
 
 
@@ -26,7 +20,7 @@
         <item name="colorSecondaryVariant" tools:ignore="DuplicateDefinition">@color/teal_700</item>
         <item name="colorOnSecondary" tools:ignore="DuplicateDefinition">@color/black</item>
 
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
 
     </style>
 </resources>
